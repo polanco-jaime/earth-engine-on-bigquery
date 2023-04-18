@@ -7,10 +7,12 @@
 # create the project
 # attach a billing id (needs to have permission)
 # and provision resources
-export USER_EMAIL=jaime.polanco@servinformacion.com
+export USER_EMAIL=eng.pepj@gmail.com 
+
+#jaime.polanco@servinformacion.com
 
 # project id for your NEW GCP project
-export PROJECT_ID=servi-ia-dev
+export PROJECT_ID=para-practicar-gcp
 
 # the new project will need to be tied to a billing account, uncomment the line below for Argolis users and update value
 # export BILLING_ACCOUNT_ID=<insert billing account>
