@@ -47,7 +47,9 @@ You will also see a sample query output on the Cloud shell, as shown below
 
 **6)** Execute the command below in Cloudshell
 ```console
-bq query --use_legacy_sql=false 'SELECT name,  `servinf-earth-engine-dev.udfs_gee.get_forest_lost_year`(aoi, 2020) deforest FROM udfs_gee.land_coords LIMIT 1 '
+bq query --use_legacy_sql=false 'SELECT   `udfs_gee.get_forest_lost_year`(
+    "POLYGON((-70.34292347149824  1.1927162274521304 , -70.34292347149824 0.9091796265429803,  -69.78330738263105  0.9091796265429803 , -69.78330738263105 1.1927162274521304 , -70.34292347149824  1.1927162274521304 ))"
+  ) deforestacion_m2 '
 ```
 You will see the NDVI and temperature (in Celsius) output on the Cloud shell for different polygons, as shown below
 <br/><br/>

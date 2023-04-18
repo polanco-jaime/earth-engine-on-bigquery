@@ -2,9 +2,9 @@
 
 #####################################################################################################
 # Script Name: setup_sa.sh
-# Date of Creation: 9/26/2022
-# Author: Ankur Wahi
-# Updated: 9/26/2022
+# Date of Creation: 04/18/2022
+# Author: Jaime Polanco
+# Updated: 04/18/2022
 #####################################################################################################
 
 
@@ -44,7 +44,7 @@ PROJECT_NUMBER=$(gcloud projects list --filter="project_id:${PROJECT_ID}"  --for
 
 
 
-SERVICE_ACCOUNT=integracionbq@servi-ia-dev.iam.gserviceaccount.com
+SERVICE_ACCOUNT=277684320471-compute@developer.gserviceaccount.com
 echo "Compute engine SA - ${SERVICE_ACCOUNT}"
 
 gcloud projects add-iam-policy-binding ${PROJECT_ID} \

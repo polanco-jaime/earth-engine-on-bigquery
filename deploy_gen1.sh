@@ -2,9 +2,9 @@
 
 #####################################################################################################
 # Script Name: setup.sh
-# Date of Creation: 8/11/2022
-# Author: Ankur Wahi
-# Updated: 8/25/2022
+# Date of Creation: 04/18/2022
+# Author: Jaime Polanco
+# Updated: 04/18/2022
 #####################################################################################################
 
 script_path="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
