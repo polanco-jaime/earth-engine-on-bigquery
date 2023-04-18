@@ -7,24 +7,18 @@
 # create the project
 # attach a billing id (needs to have permission)
 # and provision resources
-export USER_EMAIL=eng.pepj@gmail.com 
 
-#jaime.polanco@servinformacion.com
+export USER_EMAIL=eng.pepj@gmail.com 
 
 # project id for your NEW GCP project
 export PROJECT_ID=para-practicar-gcp
 
-# the new project will need to be tied to a billing account, uncomment the line below for Argolis users and update value
-# export BILLING_ACCOUNT_ID=<insert billing account>
-
-# desired GCP region for networking and compute resources, EDIT region below based on your need
-export REGION=us-central1
-
+export REGION=us-west1
 # desired App Engine region name
 # may be slightly different from GCP region above
 # run "gcloud app regions list" from an existing project to confirm
 # export APP_ENGINE_REGION=<insert desired app engine region name>
-export APP_ENGINE_REGION=us-central
+# export APP_ENGINE_REGION=us-central
 ##################################################
 #Example
 ##################################################

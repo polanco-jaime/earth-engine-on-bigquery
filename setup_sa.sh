@@ -8,7 +8,6 @@
 #####################################################################################################
 
 
-
 source ./config.sh
 gcloud auth login ${USER_EMAIL}
 echo "Assigning IAM Permissions"
@@ -44,8 +43,7 @@ PROJECT_NUMBER=$(gcloud projects list --filter="project_id:${PROJECT_ID}"  --for
 
 
 
-SERVICE_ACCOUNT=186440650050-compute@developer.gserviceaccount.com
-#277684320471-compute@developer.gserviceaccount.com
+SERVICE_ACCOUNT=${PROJECT_NUMBER}-compute@developer.gserviceaccount.com 
 echo "Compute engine SA - ${SERVICE_ACCOUNT}"
 
 gcloud projects add-iam-policy-binding ${PROJECT_ID} \
