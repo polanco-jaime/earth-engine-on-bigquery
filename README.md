@@ -32,7 +32,7 @@ If the shell script has executed successfully, you should now have a new Service
 ![Signup SA](/img/signup_sa.png)
 
 
-**5)** Next execute the command below
+**5)** Next execute the command below, before that, verify you are registered in [Google Earth Enine](https://developers.google.com/earth-engine/gu ides/access)
 
 ```console
 sh deploy_cf.sh
